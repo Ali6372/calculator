@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+button{
+   border-radius: 50%;
+   width: 50%;
+   height: 50%;
+   background: #2A2A2C;
+   display: block;
+   color: white;
+   border: none;
+   outline: none;
+}
+
+.zero{
+    border-radius: 5rem;
+}
+
+.border{
+    background: #171318;
+    border-radius: 2rem;
+}
+
+input{
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    text-align: right;
+    font-size: 2.5rem;
+}
+
+::placeholder{
+    color: white;
+}
+
+.divide,.multiply,.plus,.minus,.equal{
+    background: #FFA212;
+}
+
+.ac,.plusminus,.percentage{
+    background: #616164;
+} 
+
+/* General Styles
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  input {
+    text-align: right;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  button {
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #666;
+  }
+  
+  .row {
+    margin-bottom: 10px;
+  }
+  
+  /* Default for Large Screens (Desktops) */
+ 
+  /* Tablets (Portrait and Landscape) */
+  @media (max-width: 768px) {
+    .border {
+      width: 50% !important; 
+      height: 20% !important;
+    }
+  
+    input {
+      font-size: 1.75rem; /* Slightly smaller input size */
+    }
+  
+    button {
+      font-size: 1.4rem; /* Adjust button size for tablets */
+      padding: 10px;
+    }
+  }
+  
+  /* Phones (Portrait and Landscape) */
+  @media (max-width: 576px) {
+    .border {
+      width: 90% !important;
+      height: 10% !important; /* Almost full width on phones */
+    }
+  
+    input {
+      font-size: 2.5rem; /* Smaller input size */
+    }
+  
+    button {
+      font-size: 1.2rem; /* Adjust button size */
+      padding: 8px;
+    }
+  
+    .col-6 {
+      width: 48%; /* Adjust the '0' button size */
+    }
+  
+    .col-2 {
+      width: 22%; /* Adjust other buttons size */
+    }
+  }
+  
